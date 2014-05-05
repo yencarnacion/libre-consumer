@@ -1,0 +1,21 @@
+== L.I.B.R.E API Consumer
+libre-consumer.py is copyrighted free software by Yamir Encarnación <yencarnacion@webninjapr.com>. You can redistribute it and/or modify it under the terms of the 2-clause BSDL (see the file BSDL.txt).
+
+=== What is does
+libre-consumer.py is a python script for consuming data made available using https://github.com/commonwealth-of-puerto-rico/libre[L.I.B.R.E].
+
+----
+$ python libre-consumer.py -h
+usage: libre-consumer.py [-h] [-o output_file] uri
+
+Python script for consuming data made available using L.I.B.R.E |
+https://github.com/commonwealth-of-puerto-rico/libre
+
+positional arguments:
+  uri                   a uri for the consumer
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o output_file, --output_file output_file
+                        an output file for the data. Defaults to output.csv
+----
